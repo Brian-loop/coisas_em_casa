@@ -1,0 +1,87 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(./img/fundo.webp), url(./img/fundo\ 4.png), url(./img/fundo.webp);
+    font-family: 'Bangers';
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 350px;
+    width: 500px;
+border: #000 1PX solid;
+    background-color: white;
+    background: url(./img/fundo.webp), white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card > .question p {
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-yes, .btn-no {
+    height: 48px;
+    width: 100px;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-yes {
+    background-color: #9AFF9A;
+}
+
+.btn-no {
+    background-color: #FF4040;
+    color: #fff;
+}
+
+.answer {
+    display: none;
+}
+
+.answer > p {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #FF6EB4;
+    text-shadow: 1px 1px #000;
+}
+.texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 60px;
+    background-color: rgba(22, 22, 22, 0.514);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.texto:hover{
+    scale: 1.02;
+    transition: ease-out 0.2s;
+    box-shadow: 3px 3px 10px rgba(22, 22, 22, 0.075);
+}
